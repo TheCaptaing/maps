@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.find-btn {
+    background: #943f97;
+    color: white;
+    height: 3em;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+.find-btn:hover {
+    background: #ae58b1;
+    box-shadow: 0 0 5px .5px gray;
+}
+
+.find-btn:active {
+    background: #943f97;
+    box-shadow: none;
+}
